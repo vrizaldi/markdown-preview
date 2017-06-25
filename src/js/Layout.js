@@ -54,8 +54,9 @@ export default class Layout extends React.Component {
 	render() {
 		return(
 		<div>
-			<Preview className="half preview" parsedMd={this.state.parsedMd}/>
-			<Markdown className="half markdown" updateMd={this.updateMd.bind(this)} markdown={this.state.md}/>
+			<h1 id="title">Markdown Previewer</h1>
+			<Preview parsedMd={this.state.parsedMd}/>
+			<Markdown updateMd={this.updateMd.bind(this)} markdown={this.state.md}/>
 		</div>
 		);
 	}

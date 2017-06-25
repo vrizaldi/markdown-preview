@@ -1,20 +1,29 @@
 #app {
 	width: 100%;
 }
-/*
+
+#title {
+	float: right;
+	font-size: 5em;
+	width: 49%;
+}
+
 .half {
-	width: 45%;
-	height: 500px;
-	float: left;
+	width: 49%;
+	height: 400px;
+}
+
+#preview {
 	overflow: scroll;
-}
-*/
-
-#markdown textarea {
-	width: 100%;
-	height: 300px;
+	float: left;
 }
 
-#app > div {
-	width: 100%;
+#markdown {
+	float: right;
 }
+
+#mdinput {
+	width: 100%;
+	height: 200px;
+}
+

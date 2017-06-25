@@ -9,8 +9,8 @@ export default class Markdown extends React.Component {
 
 	render() {
 		return(
-			<div>
-			<textarea value={this.props.markdown} onChange={this.mdChange.bind(this)}/>
+			<div id="markdown" className="half">
+				<textarea id="mdinput" value={this.props.markdown} onChange={this.mdChange.bind(this)}/>
 			</div>
 		);
 	}
