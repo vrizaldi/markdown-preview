@@ -1,9 +1,15 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
 #app {
 	width: 100%;
 }
 
 #title {
-	float: right;
+	float: left;
 	font-size: 5em;
 	width: 49%;
 }
@@ -14,12 +20,13 @@
 }
 
 #preview {
-	overflow: scroll;
-	float: left;
+	overflow: auto;
+	float: right;
+	padding: 5px;
 }
 
 #markdown {
-	float: right;
+	float: left;
 }
 
 #mdinput {
@@ -27,3 +34,10 @@
 	height: 200px;
 }
 
+#credit {
+	font-family: Helvetica, Arial;
+	font-size: 0.8em;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
