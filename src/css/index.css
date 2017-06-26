@@ -1,7 +1,6 @@
 body {
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
 }
 
 #app {
@@ -16,13 +15,13 @@ body {
 
 .half {
 	width: 49%;
-	height: 400px;
 }
 
 #preview {
 	overflow: auto;
 	float: right;
 	padding: 5px;
+  height: 500px;
 }
 
 #markdown {
@@ -37,7 +36,6 @@ body {
 #credit {
 	font-family: Helvetica, Arial;
 	font-size: 0.8em;
-	position: absolute;
-	bottom: 0;
-	right: 10px;
+	float:right;
+	margin: 10px;
 }
